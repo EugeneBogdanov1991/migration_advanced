@@ -1,0 +1,16 @@
+{
+    "name": "magecom/module-migration",
+    "description": "Advanced Migration",
+    "type": "magento2-module",
+    "license": "OSL-3.0",
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "files": [
+            "registration.php"
+        ],
+        "psr-4": {
+            "Magecom\\Migration\\": ""
+        }
+    }
+}
